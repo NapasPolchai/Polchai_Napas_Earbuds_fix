@@ -105,23 +105,25 @@ button {
 }
 
 .welcome {
-    width: 100%;
     height: 100%;
-    object-fit: cover;
-    position: sticky;
+    background-color: #999999;
   }
 
   #welcome-video {
     width: 100vw;
+    background-color: rgb(59, 232, 232);
   }
 
-  .vid-cont {
-    position: sticky;
-    top: 0;
-  }
-  
   #explode-view {
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+  }
+
+  
+  #explode-cont {
+    height: 100vh;
+    width: 100vw;
   }
 
 .hero h1,
@@ -155,10 +157,12 @@ button {
     flex-direction: column;
     max-width: 350px;
     color: #fff;
+    font-weight: 400;
 }
 
 #hero-text-2 {
     text-align: right;
+    font-weight: 400;
 }
 
 .hero-btn {
@@ -169,12 +173,14 @@ button {
     position: absolute;
     right: 0;
     top: 148px;
+    font-weight: 400;
 }
 
 .hero h2 {
     position: absolute;
     left: 0;
     top: 198px;
+    font-weight: 400;
 }
 
 #button-2 {
@@ -194,6 +200,7 @@ button {
 #hero-text-2 {
     text-align: right;
     align-self: end;
+    font-weight: 400;
 }
 
 .sec-section {
@@ -212,6 +219,7 @@ button {
 
 .section-content .title h3 {
     opacity: 0.4;
+    font-weight: 400;
 }
 
 .section-content .description {
@@ -271,6 +279,7 @@ button {
     bottom: -16px;
     right: 0;
     opacity: 0.4;
+    font-weight: 400;
 }
 
 .features-body:last-of-type {
@@ -283,6 +292,7 @@ button {
 
 .title h3 {
     opacity: 0.4;
+    font-weight: 400;
 }
 
 .card {
@@ -294,6 +304,7 @@ button {
     opacity: 0.4;
     margin-bottom: 16px;
     letter-spacing: 0.6px;
+    font-weight: 400;
 }
 
 .card p {
